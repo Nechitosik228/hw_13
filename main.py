@@ -2,7 +2,7 @@ import uvicorn
 from datetime import datetime
 from typing import Callable
 
-from fastapi import FastAPI, Request, Response, status, APIRouter
+from fastapi import FastAPI, Request, Response, status
 
 from logg import requests_logger
 
